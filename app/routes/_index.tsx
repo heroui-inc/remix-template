@@ -1,9 +1,9 @@
-import { Code } from "@nextui-org/code";
-import { Snippet } from "@nextui-org/snippet";
-import { Link } from "@nextui-org/link";
+import { Code } from "@heroui/code";
+import { Snippet } from "@heroui/snippet";
+import { Link } from "@heroui/link";
 import type { MetaFunction } from "@remix-run/node";
 import { SVGProps } from "react";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { button as buttonStyles } from "@heroui/theme";
 import { siteConfig } from "config/site";
 import { subtitle, title } from "components/primitives";
 import { Navbar } from "components/navbar";

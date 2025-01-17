@@ -2,8 +2,8 @@
 
 import { FC } from "react";
 import { VisuallyHidden } from "@react-aria/visually-hidden";
-import { SwitchProps, useSwitch } from "@nextui-org/switch";
-import { useTheme } from "@nextui-org/use-theme";
+import { SwitchProps, useSwitch } from "@heroui/switch";
+import { useTheme } from "@heroui/use-theme";
 import { useIsSSR } from "@react-aria/ssr";
 import clsx from "clsx";
 
