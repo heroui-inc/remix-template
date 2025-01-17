@@ -186,7 +186,7 @@ export const SearchIcon = (props: IconSvgProps) => (
   </svg>
 );
 
-export const NextUILogo: React.FC<IconSvgProps> = (props) => {
+export const HeroUILogo: React.FC<IconSvgProps> = (props) => {
   const { width, height = 40 } = props;
 
   return (

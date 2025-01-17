@@ -1,11 +1,11 @@
-# Remix & NextUI Template
+# Remix & HeroUI Template
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
 
 ## Technologies Used
 
 - [Remix 2](https://remix.run/docs/en/main/start/quickstart)
-- [NextUI v2](https://nextui.org/)
+- [HeroUI v2](https://heroui.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -18,7 +18,7 @@ This is a template for creating applications using Next.js 14 (app directory) an
 To create a new project based on this template using `create-remix`, run the following command:
 
 ```bash
-npx create-next-app -e https://github.com/nextui-org/remix-template.git
+npx create-next-app -e https://github.com/frontio-ai/remix-template.git
 ```
 
 ### Install dependencies
@@ -40,7 +40,7 @@ npm run dev
 If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
 
 ```bash
-public-hoist-pattern[]=*@nextui-org/*
+public-hoist-pattern[]=*@heroui/*
 ```
 
 After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.

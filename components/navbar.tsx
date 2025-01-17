@@ -1,11 +1,11 @@
 import {
-    Navbar as NextUINavbar,
-    NavbarContent,
-    NavbarMenu,
-    NavbarMenuToggle,
-    NavbarBrand,
-    NavbarItem,
-    NavbarMenuItem,
+  Navbar as HeroUINavbar,
+  NavbarContent,
+  NavbarMenu,
+  NavbarMenuToggle,
+  NavbarBrand,
+  NavbarItem,
+  NavbarMenuItem,
 } from "@heroui/navbar";
 import { Button } from "@heroui/button";
 import { Kbd } from "@heroui/kbd";
@@ -25,7 +25,7 @@ import {
 import { siteConfig } from "config/site";
 import { useEffect, useState } from "react";
 import { ThemeSwitch } from "./theme-switch";
-  
+
 export const Navbar = () => {
   const searchInput = (
     <Input
@@ -59,7 +59,7 @@ export const Navbar = () => {
   }
 
   return (
-    <NextUINavbar maxWidth="xl" position="sticky">
+    <HeroUINavbar maxWidth="xl" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <Link className="flex justify-start items-center gap-1" href="/">
@@ -146,7 +146,6 @@ export const Navbar = () => {
           ))}
         </div>
       </NavbarMenu>
-    </NextUINavbar>
+    </HeroUINavbar>
   );
 };
-  

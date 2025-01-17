@@ -10,12 +10,12 @@ import { Navbar } from "components/navbar";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "NextUI + Remix App" },
-    { name: "description", content: "Welcome to NextUI!" },
+    { title: "HeroUI + Remix App" },
+    { name: "description", content: "Welcome to HeroUI!" },
   ];
 };
 
-const GithubIcon: React.FC<SVGProps<SVGSVGElement> & {size?: number}> = ({
+const GithubIcon: React.FC<SVGProps<SVGSVGElement> & { size?: number }> = ({
   size = 24,
   width,
   height,
@@ -85,20 +85,20 @@ export default function Index() {
               </span>
             </Snippet>
           </div>
-      </section>
-    </main>
-    <footer className="w-full flex items-center justify-center py-3">
-      <Link
-        isExternal
-        className="flex items-center gap-1 text-current"
-        href="https://nextui.org/docs/guide/introduction"
-        title="nextui.org homepage"
-      >
-        <span className="text-default-600">Powered by</span>
-        <p className="text-primary">NextUI</p>
-      </Link>
-    </footer>
-    </div>  
+        </section>
+      </main>
+      <footer className="w-full flex items-center justify-center py-3">
+        <Link
+          isExternal
+          className="flex items-center gap-1 text-current"
+          href="https://heroui.com/docs/guide/introduction"
+          title="heroui.com homepage"
+        >
+          <span className="text-default-600">Powered by</span>
+          <p className="text-primary">HeroUI</p>
+        </Link>
+      </footer>
+    </div>
   );
 }
 
