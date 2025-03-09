@@ -18,7 +18,7 @@ This is a template for creating applications using Next.js 14 (app directory) an
 To create a new project based on this template using `create-remix`, run the following command:
 
 ```bash
-npx create-next-app -e https://github.com/frontio-ai/remix-template.git
+npx create-next-app -e https://github.com/heroui-inc/remix-template.git
 ```
 
 ### Install dependencies
