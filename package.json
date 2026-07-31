@@ -14,14 +14,14 @@
     "typecheck": "pnpm cf-typegen && react-router typegen && tsc"
   },
   "dependencies": {
-    "@heroui/react": "3.2.2",
-    "@heroui/styles": "3.2.2",
+    "@heroui/react": "3.2.3",
+    "@heroui/styles": "3.2.3",
     "clsx": "2.1.1",
     "isbot": "5.1.32",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-router": "7.17.0",
-    "tailwind-variants": "3.2.2"
+    "tailwind-variants": "3.3.0"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.43.0",
